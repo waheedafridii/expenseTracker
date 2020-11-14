@@ -13,7 +13,7 @@ export const AddTransaction = () => {
         console.log(e.preventDefault)
         e.preventDefault();
 
-        if(transactionAmount == 0){
+        if(transactionAmount === 0){
             alert("Please enter correct value");
             return;
         }

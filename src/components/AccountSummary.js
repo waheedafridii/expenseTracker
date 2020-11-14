@@ -3,8 +3,6 @@ import { GlobalContext } from '../context/GlobalState';
 
 export const AccountSummary = () => {
     const { transactions } = useContext(GlobalContext);
-    const transactionAmounts = transactions.map(transaction => transaction.transactionAmount);
-
     const getExpense = ()=>{
         let income = 0;
         for(var i= 0 ; i < transactions.length; i++){
