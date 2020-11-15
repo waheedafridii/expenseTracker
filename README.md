@@ -2,6 +2,7 @@
 This web-app helps the user to track their income and expenses on a daily basis to easily track their transactions.This project is built by using React Context API and React hooks( useState, useContext, useReducer) using surge with github actions.
 
 ## Project View
+![](https://github.com/waheedafridii/expenseTracker/blob/master/assests/ExpenseTracker.PNG)
 
 ## Usage
 ```
